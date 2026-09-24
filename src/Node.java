@@ -1,4 +1,4 @@
-import java.util.List;
+import java.util.*;
 
 public class Node<T> {
   T value;
@@ -6,5 +6,6 @@ public class Node<T> {
   
   public Node(T value) {
     this.value = value;
+    children = new ArrayList<>();
   }
 }
